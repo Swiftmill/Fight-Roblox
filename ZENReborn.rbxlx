@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4">
+<Meta name="ExplicitAutoJoints">true</Meta>
+<External>null</External>
+<External>nil</External>
+<External>nil</External>
+<Item class="Workspace" referent="RBX0">
+<Properties>
+<bool name="Archivable">true</bool>
+<string name="Name">Workspace</string>
+<bool name="StreamingEnabled">false</bool>
+<Vector3 name="Gravity">0 -196.2 0</Vector3>
+</Properties>
+<Item class="Folder" referent="RBX1">
+<Properties>
+<string name="Name">Environment</string>
+</Properties>
+<Item class="Part" referent="RBX2">
+<Properties>
+<bool name="Anchored">true</bool>
+<Vector3 name="Size">150 2 150</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 0 0 0</CoordinateFrame>
+<string name="Name">Floor</string>
+<float name="Reflectance">0</float>
+<float name="Transparency">0</float>
+<Color3 name="Color">0.862745 0.862745 0.862745</Color3>
+</Properties>
+</Item>
+<Item class="Part" referent="RBX3">
+<Properties>
+<bool name="Anchored">true</bool>
+<Vector3 name="Size">150 40 4</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 0 20 -77</CoordinateFrame>
+<string name="Name">WallNorth</string>
+<Color3 name="Color">0.690196 0.690196 0.690196</Color3>
+</Properties>
+</Item>
+<Item class="Part" referent="RBX4">
+<Properties>
+<bool name="Anchored">true</bool>
+<Vector3 name="Size">150 40 4</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 0 20 77</CoordinateFrame>
+<string name="Name">WallSouth</string>
+<Color3 name="Color">0.690196 0.690196 0.690196</Color3>
+</Properties>
+</Item>
+<Item class="Part" referent="RBX5">
+<Properties>
+<bool name="Anchored">true</bool>
+<Vector3 name="Size">4 40 150</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 -77 20 0</CoordinateFrame>
+<string name="Name">WallWest</string>
+<Color3 name="Color">0.690196 0.690196 0.690196</Color3>
+</Properties>
+</Item>
+<Item class="Part" referent="RBX6">
+<Properties>
+<bool name="Anchored">true</bool>
+<Vector3 name="Size">4 40 150</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 77 20 0</CoordinateFrame>
+<string name="Name">WallEast</string>
+<Color3 name="Color">0.690196 0.690196 0.690196</Color3>
+</Properties>
+</Item>
+<Item class="Part" referent="RBX7">
+<Properties>
+<bool name="Anchored">true</bool>
+<Vector3 name="Size">20 1 20</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 0 1 0</CoordinateFrame>
+<string name="Name">Dais</string>
+<Color3 name="Color">0.866667 0.0784314 0.0784314</Color3>
+</Properties>
+</Item>
+<Item class="Part" referent="RBX8">
+<Properties>
+<bool name="Anchored">true</bool>
+<Vector3 name="Size">8 12 8</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 -35 6 35</CoordinateFrame>
+<string name="Name">Pillar1</string>
+<Color3 name="Color">0.819608 0.819608 0.819608</Color3>
+</Properties>
+</Item>
+<Item class="Part" referent="RBX9">
+<Properties>
+<bool name="Anchored">true</bool>
+<Vector3 name="Size">8 12 8</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 35 6 -35</CoordinateFrame>
+<string name="Name">Pillar2</string>
+<Color3 name="Color">0.819608 0.819608 0.819608</Color3>
+</Properties>
+</Item>
+</Item>
+<Item class="SpawnLocation" referent="RBX10">
+<Properties>
+<bool name="Anchored">true</bool>
+<bool name="AllowTeamChangeOnTouch">false</bool>
+<Vector3 name="Size">6 1 6</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 -10 2 0</CoordinateFrame>
+<string name="Name">Spawn1</string>
+<bool name="Enabled">true</bool>
+<bool name="Neutral">true</bool>
+<Color3 name="Color">1 1 1</Color3>
+</Properties>
+</Item>
+<Item class="SpawnLocation" referent="RBX11">
+<Properties>
+<bool name="Anchored">true</bool>
+<bool name="AllowTeamChangeOnTouch">false</bool>
+<Vector3 name="Size">6 1 6</Vector3>
+<CoordinateFrame name="CFrame">1 0 0 0 1 0 0 0 1 10 2 0</CoordinateFrame>
+<string name="Name">Spawn2</string>
+<bool name="Enabled">true</bool>
+<bool name="Neutral">true</bool>
+<Color3 name="Color">1 1 1</Color3>
+</Properties>
+</Item>
+</Item>
+<Item class="Lighting" referent="RBX12">
+<Properties>
+<string name="Name">Lighting</string>
+<Color3 name="Ambient">0.619608 0.643137 0.678431</Color3>
+<Color3 name="OutdoorAmbient">0.572549 0.592157 0.623529</Color3>
+<float name="Brightness">2</float>
+<float name="ClockTime">14.5</float>
+</Properties>
+</Item>
+<Item class="SoundService" referent="RBX13">
+<Properties>
+<string name="Name">SoundService</string>
+</Properties>
+<Item class="Sound" referent="RBX14">
+<Properties>
+<string name="Name">Zenscape</string>
+<Content name="SoundId">rbxassetid://0</Content>
+<bool name="Looped">true</bool>
+<float name="Volume">0.3</float>
+</Properties>
+</Item>
+<Item class="Sound" referent="RBX15">
+<Properties>
+<string name="Name">ArenaLoop</string>
+<Content name="SoundId">rbxassetid://0</Content>
+<bool name="Looped">true</bool>
+<float name="Volume">0.6</float>
+</Properties>
+</Item>
+</Item>
+<Item class="ReplicatedStorage" referent="RBX16">
+<Properties>
+<string name="Name">ReplicatedStorage</string>
+</Properties>
+<Item class="Folder" referent="RBX17">
+<Properties>
+<string name="Name">Remotes</string>
+</Properties>
+<Item class="RemoteEvent" referent="RBX18">
+<Properties>
+<string name="Name">Attack</string>
+</Properties>
+</Item>
+<Item class="RemoteEvent" referent="RBX19">
+<Properties>
+<string name="Name">Block</string>
+</Properties>
+</Item>
+<Item class="RemoteEvent" referent="RBX20">
+<Properties>
+<string name="Name">Shockwave</string>
+</Properties>
+</Item>
+<Item class="RemoteEvent" referent="RBX21">
+<Properties>
+<string name="Name">Kick</string>
+</Properties>
+</Item>
+<Item class="RemoteEvent" referent="RBX22">
+<Properties>
+<string name="Name">Taunt</string>
+</Properties>
+</Item>
+<Item class="RemoteEvent" referent="RBX23">
+<Properties>
+<string name="Name">LockOn</string>
+</Properties>
+</Item>
+<Item class="RemoteEvent" referent="RBX24">
+<Properties>
+<string name="Name">Purchase</string>
+</Properties>
+</Item>
+<Item class="RemoteEvent" referent="RBX25">
+<Properties>
+<string name="Name">Announcement</string>
+</Properties>
+</Item>
+<Item class="RemoteEvent" referent="RBX26">
+<Properties>
+<string name="Name">BlockBroken</string>
+</Properties>
+</Item>
+</Item>
+<Item class="Folder" referent="RBX27">
+<Properties>
+<string name="Name">Assets</string>
+</Properties>
+<Item class="Folder" referent="RBX28">
+<Properties>
+<string name="Name">Weapons</string>
+</Properties>
+</Item>
+<Item class="Folder" referent="RBX29">
+<Properties>
+<string name="Name">Skins</string>
+</Properties>
+</Item>
+<Item class="Folder" referent="RBX30">
+<Properties>
+<string name="Name">Emotes</string>
+</Properties>
+</Item>
+</Item>
+<Item class="ModuleScript" referent="RBX31">
+<Properties>
+<string name="Name">CombatShared</string>
+<ProtectedString name="Source"><![CDATA[
+--!strict
+-- CombatShared.lua
+-- Shared constants and utility functions for ZEN Reborn combat system.
+-- Author: Generated by ChatGPT
+
+local CombatShared = {}
+
+-- Animation asset catalogue. Replace the asset IDs with your exported animation ids.
+CombatShared.Animations = {
+    Idle = "rbxassetid://0", -- Placeholder, assign in Studio
+    Walk = "rbxassetid://0",
+    Run = "rbxassetid://0",
+    AttackLight = "rbxassetid://0",
+    Block = "rbxassetid://0",
+    Shockwave = "rbxassetid://0",
+    Kick = "rbxassetid://0",
+    Taunt = "rbxassetid://0",
+    EmoteHold = "rbxassetid://0",
+}
+
+CombatShared.Config = {
+    LockOnRange = 120,
+    AttackRange = 14,
+    AttackDamage = 18,
+    ShockwaveDamage = 26,
+    ShockwaveRadius = 20,
+    KickDamage = 8,
+    BlockDamageScalar = 0.3,
+    BlockBreakThreshold = 2.5, -- seconds of continuous blocking before the kick breaks it
+    KickCooldown = 4,
+    ShockwaveCooldown = 6,
+    TauntCooldown = 5,
+    RunSpeed = 24,
+    WalkSpeed = 14,
+    BlockWalkSpeed = 8,
+}
+
+function CombatShared.FindClosestEnemy(player: Player, range: number): Player?
+    local Players = game:GetService("Players")
+    local bestPlayer: Player? = nil
+    local bestDistance = range
+
+    for _, other in Players:GetPlayers() do
+        if other ~= player then
+            local character = other.Character
+            if character then
+                local hrp = character:FindFirstChild("HumanoidRootPart")
+                local humanoid = character:FindFirstChildOfClass("Humanoid")
+                if hrp and humanoid and humanoid.Health > 0 then
+                    local primary = player.Character and player.Character:FindFirstChild("HumanoidRootPart")
+                    if primary then
+                        local distance = (hrp.Position - primary.Position).Magnitude
+                        if distance < bestDistance then
+                            bestDistance = distance
+                            bestPlayer = other
+                        end
+                    end
+                end
+            end
+        end
+    end
+
+    return bestPlayer
+end
+
+return CombatShared
+
+]]></ProtectedString>
+</Properties>
+</Item>
+</Item>
+<Item class="ServerScriptService" referent="RBX32">
+<Properties>
+<string name="Name">ServerScriptService</string>
+</Properties>
+<Item class="Script" referent="RBX33">
+<Properties>
+<string name="Name">CombatService</string>
+<ProtectedString name="Source"><![CDATA[
+--!strict
+-- CombatService.server.lua
+-- Authoritative combat logic and lobby messaging for ZEN Reborn.
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ServerStorage = game:GetService("ServerStorage")
+local Debris = game:GetService("Debris")
+
+local CombatShared = require(ReplicatedStorage:WaitForChild("CombatShared"))
+local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+
+export type PlayerState = {
+    Blocking: boolean,
+    BlockStart: number,
+    Target: Player?,
+    LastKick: number,
+    LastShockwave: number,
+    LastTaunt: number,
+}
+
+local playerStates: {[Player]: PlayerState} = {}
+
+local function getState(player: Player): PlayerState
+    local state = playerStates[player]
+    if not state then
+        state = {
+            Blocking = false,
+            BlockStart = 0,
+            Target = nil,
+            LastKick = 0,
+            LastShockwave = 0,
+            LastTaunt = 0,
+        }
+        playerStates[player] = state
+    end
+    return state
+end
+
+local function getHumanoidFromTarget(target: Instance?): Humanoid?
+    if not target then
+        return nil
+    end
+
+    if target:IsA("Humanoid") then
+        return target
+    end
+
+    return target:FindFirstAncestorOfClass("Model") and target:FindFirstAncestorOfClass("Model"):FindFirstChildOfClass("Humanoid")
+end
+
+local function applyDamage(attacker: Player, humanoid: Humanoid, amount: number)
+    if humanoid.Health <= 0 then
+        return
+    end
+
+    local victimPlayer = Players:GetPlayerFromCharacter(humanoid.Parent)
+    if victimPlayer then
+        local victimState = getState(victimPlayer)
+        if victimState.Blocking then
+            amount *= CombatShared.Config.BlockDamageScalar
+        end
+    end
+
+    humanoid:TakeDamage(amount)
+    if humanoid.Health <= 0 and victimPlayer then
+        Remotes.Announcement:FireAllClients(string.format("%s a vaincu %s!", attacker.DisplayName, victimPlayer.DisplayName))
+    end
+end
+
+local function handleAttack(player: Player, targetHumanoid: Humanoid?)
+    if not targetHumanoid then
+        return
+    end
+
+    local state = getState(player)
+    local attackerCharacter = player.Character
+    local attackerRoot = attackerCharacter and attackerCharacter:FindFirstChild("HumanoidRootPart")
+    if not attackerRoot then
+        return
+    end
+
+    local victimCharacter = targetHumanoid.Parent
+    local victimRoot = victimCharacter and victimCharacter:FindFirstChild("HumanoidRootPart")
+    if not victimRoot then
+        return
+    end
+
+    local distance = (attackerRoot.Position - victimRoot.Position).Magnitude
+    if distance > CombatShared.Config.AttackRange then
+        return
+    end
+
+    applyDamage(player, targetHumanoid, CombatShared.Config.AttackDamage)
+end
+
+local function handleBlock(player: Player, isBlocking: boolean)
+    local state = getState(player)
+    state.Blocking = isBlocking
+    if isBlocking then
+        state.BlockStart = os.clock()
+    else
+        state.BlockStart = 0
+    end
+end
+
+local function handleShockwave(player: Player, targetRoot: BasePart?)
+    local state = getState(player)
+    local now = os.clock()
+    if now - state.LastShockwave < CombatShared.Config.ShockwaveCooldown then
+        return
+    end
+
+    state.LastShockwave = now
+
+    local center: Vector3
+    if targetRoot then
+        center = targetRoot.Position
+    else
+        local character = player.Character
+        local root = character and character:FindFirstChild("HumanoidRootPart")
+        if not root then
+            return
+        end
+        center = root.Position
+    end
+
+    for _, other in Players:GetPlayers() do
+        if other ~= player then
+            local character = other.Character
+            local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+            local otherRoot = character and character:FindFirstChild("HumanoidRootPart")
+            if humanoid and otherRoot then
+                local distance = (otherRoot.Position - center).Magnitude
+                if distance <= CombatShared.Config.ShockwaveRadius then
+                    applyDamage(player, humanoid, CombatShared.Config.ShockwaveDamage)
+                    local bodyVelocity = Instance.new("BodyVelocity")
+                    bodyVelocity.MaxForce = Vector3.new(4e4, 4e4, 4e4)
+                    bodyVelocity.Velocity = (otherRoot.Position - center).Unit * 60 + Vector3.new(0, 30, 0)
+                    bodyVelocity.Parent = otherRoot
+                    Debris:AddItem(bodyVelocity, 0.35)
+                end
+            end
+        end
+    end
+end
+
+local function handleKick(player: Player, targetHumanoid: Humanoid?)
+    if not targetHumanoid then
+        return
+    end
+
+    local state = getState(player)
+    local now = os.clock()
+    if now - state.LastKick < CombatShared.Config.KickCooldown then
+        return
+    end
+    state.LastKick = now
+
+    local victimPlayer = Players:GetPlayerFromCharacter(targetHumanoid.Parent)
+    if victimPlayer then
+        local victimState = getState(victimPlayer)
+        if victimState.Blocking then
+            if victimState.BlockStart > 0 and now - victimState.BlockStart >= CombatShared.Config.BlockBreakThreshold then
+                victimState.Blocking = false
+                victimState.BlockStart = 0
+                Remotes.BlockBroken:FireClient(victimPlayer)
+            end
+        end
+    end
+
+    applyDamage(player, targetHumanoid, CombatShared.Config.KickDamage)
+end
+
+local function handleTaunt(player: Player)
+    local state = getState(player)
+    local now = os.clock()
+    if now - state.LastTaunt < CombatShared.Config.TauntCooldown then
+        return
+    end
+    state.LastTaunt = now
+
+    Remotes.Announcement:FireAllClients(string.format("%s provoque l'adversaire...", player.DisplayName))
+end
+
+local function handleLock(player: Player, targetPlayer: Player?)
+    local state = getState(player)
+    state.Target = targetPlayer
+end
+
+local function onPurchaseRequest(player: Player, itemId: string)
+    Remotes.Announcement:FireClient(player, string.format("%s acheté (prototype)", itemId))
+end
+
+Remotes.Attack.OnServerEvent:Connect(function(player, target)
+    handleAttack(player, getHumanoidFromTarget(target))
+end)
+
+Remotes.Block.OnServerEvent:Connect(handleBlock)
+
+Remotes.Shockwave.OnServerEvent:Connect(function(player, targetRoot)
+    handleShockwave(player, targetRoot)
+end)
+
+Remotes.Kick.OnServerEvent:Connect(function(player, target)
+    handleKick(player, getHumanoidFromTarget(target))
+end)
+
+Remotes.Taunt.OnServerEvent:Connect(handleTaunt)
+Remotes.LockOn.OnServerEvent:Connect(handleLock)
+Remotes.Purchase.OnServerEvent:Connect(onPurchaseRequest)
+
+Players.PlayerRemoving:Connect(function(player)
+    playerStates[player] = nil
+end)
+
+Remotes.Announcement:FireAllClients("Bienvenue à ZEN Reborn. Soutenez-nous avec un pouce levé !")
+
+]]></ProtectedString>
+</Properties>
+</Item>
+</Item>
+<Item class="StarterPlayer" referent="RBX34">
+<Properties>
+<string name="Name">StarterPlayer</string>
+<float name="CameraMaxZoomDistance">18</float>
+<float name="CameraMinZoomDistance">8</float>
+</Properties>
+<Item class="StarterPlayerScripts" referent="RBX35">
+<Properties>
+<string name="Name">StarterPlayerScripts</string>
+</Properties>
+<Item class="LocalScript" referent="RBX36">
+<Properties>
+<string name="Name">ZenController</string>
+<ProtectedString name="Source"><![CDATA[
+--!strict
+-- ZenController.client.lua
+-- Handles client-side input, animations, lock-on camera, and HUD logic for ZEN Reborn.
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local StarterGui = game:GetService("StarterGui")
+
+local CombatShared = require(ReplicatedStorage:WaitForChild("CombatShared"))
+local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:WaitForChild("Humanoid")
+local root = character:WaitForChild("HumanoidRootPart")
+
+local animator = humanoid:WaitForChild("Animator")
+local animations = {}
+for name, assetId in pairs(CombatShared.Animations) do
+    local animation = Instance.new("Animation")
+    animation.AnimationId = assetId
+    animation.Name = name
+    animations[name] = animator:LoadAnimation(animation)
+end
+
+local lockTarget: Player? = nil
+local lockHighlight: Highlight? = nil
+local isBlocking = false
+local running = false
+local actionCooldowns: {[string]: number} = {}
+local infoGui = nil
+local shopGui = nil
+local emoteHolding = false
+
+local function setWalkSpeed()
+    if isBlocking then
+        humanoid.WalkSpeed = CombatShared.Config.BlockWalkSpeed
+    elseif running then
+        humanoid.WalkSpeed = CombatShared.Config.RunSpeed
+    else
+        humanoid.WalkSpeed = CombatShared.Config.WalkSpeed
+    end
+end
+
+local function ensureHighlight(targetCharacter: Model)
+    if lockHighlight and lockHighlight.Adornee ~= targetCharacter then
+        lockHighlight:Destroy()
+        lockHighlight = nil
+    end
+
+    if not lockHighlight then
+        lockHighlight = Instance.new("Highlight")
+        lockHighlight.FillColor = Color3.fromRGB(255, 84, 84)
+        lockHighlight.OutlineColor = Color3.fromRGB(255, 255, 255)
+        lockHighlight.DepthMode = Enum.HighlightDepthMode.Occluded
+        lockHighlight.Parent = targetCharacter
+    end
+
+    lockHighlight.Adornee = targetCharacter
+end
+
+local function clearLock()
+    if lockHighlight then
+        lockHighlight:Destroy()
+        lockHighlight = nil
+    end
+    lockTarget = nil
+    Remotes.LockOn:FireServer(nil)
+end
+
+local function setLockTarget(targetPlayer: Player?)
+    if targetPlayer then
+        lockTarget = targetPlayer
+        Remotes.LockOn:FireServer(targetPlayer)
+        local targetCharacter = targetPlayer.Character
+        if targetCharacter then
+            ensureHighlight(targetCharacter)
+        end
+    else
+        clearLock()
+    end
+end
+
+local function toggleLock()
+    if lockTarget then
+        clearLock()
+        return
+    end
+
+    local candidate = CombatShared.FindClosestEnemy(player, CombatShared.Config.LockOnRange)
+    if candidate then
+        setLockTarget(candidate)
+    end
+end
+
+local function canUse(actionName: string, cooldown: number)
+    local now = os.clock()
+    local last = actionCooldowns[actionName]
+    if last and now - last < cooldown then
+        return false
+    end
+    actionCooldowns[actionName] = now
+    return true
+end
+
+local function playAnimation(name: string)
+    local anim = animations[name]
+    if anim then
+        anim:Play()
+    end
+end
+
+local function stopAnimation(name: string)
+    local anim = animations[name]
+    if anim then
+        anim:Stop()
+    end
+end
+
+local function startEmoteHold()
+    if emoteHolding then
+        return
+    end
+    emoteHolding = true
+    playAnimation("EmoteHold")
+end
+
+local function stopEmoteHold()
+    if not emoteHolding then
+        return
+    end
+    emoteHolding = false
+    stopAnimation("EmoteHold")
+end
+
+local function handleAttack()
+    if not lockTarget then
+        toggleLock()
+    end
+
+    local target = lockTarget and lockTarget.Character and lockTarget.Character:FindFirstChildOfClass("Humanoid")
+    if target then
+        Remotes.Attack:FireServer(target)
+        playAnimation("AttackLight")
+    end
+end
+
+local function handleBlock(actionName, inputState)
+    if inputState == Enum.UserInputState.Begin then
+        isBlocking = true
+        setWalkSpeed()
+        Remotes.Block:FireServer(true)
+        playAnimation("Block")
+    elseif inputState == Enum.UserInputState.End or inputState == Enum.UserInputState.Cancel then
+        isBlocking = false
+        setWalkSpeed()
+        Remotes.Block:FireServer(false)
+        stopAnimation("Block")
+    end
+end
+
+local function handleShockwave()
+    if not canUse("Shockwave", CombatShared.Config.ShockwaveCooldown) then
+        return
+    end
+    playAnimation("Shockwave")
+    Remotes.Shockwave:FireServer(lockTarget and lockTarget.Character and lockTarget.Character:FindFirstChild("HumanoidRootPart"))
+end
+
+local function handleKick()
+    if not canUse("Kick", CombatShared.Config.KickCooldown) then
+        return
+    end
+
+    playAnimation("Kick")
+    Remotes.Kick:FireServer(lockTarget and lockTarget.Character and lockTarget.Character:FindFirstChildOfClass("Humanoid"))
+end
+
+local function handleTaunt()
+    if not canUse("Taunt", CombatShared.Config.TauntCooldown) then
+        return
+    end
+
+    playAnimation("Taunt")
+    Remotes.Taunt:FireServer()
+end
+
+local function toggleShop()
+    if shopGui then
+        shopGui.Enabled = not shopGui.Enabled
+    end
+end
+
+local function buildInfoGui()
+    if player:FindFirstChild("PlayerGui") then
+        local screenGui = player.PlayerGui:FindFirstChild("ZenHUD")
+        if screenGui then
+            infoGui = screenGui:FindFirstChild("ControlsFrame")
+            shopGui = screenGui:FindFirstChild("ShopFrame")
+        end
+    end
+end
+
+local function onCharacterAdded(newCharacter)
+    character = newCharacter
+    humanoid = newCharacter:WaitForChild("Humanoid")
+    root = newCharacter:WaitForChild("HumanoidRootPart")
+    animator = humanoid:WaitForChild("Animator")
+    animations = {}
+    for name, assetId in pairs(CombatShared.Animations) do
+        local animation = Instance.new("Animation")
+        animation.AnimationId = assetId
+        animation.Name = name
+        animations[name] = animator:LoadAnimation(animation)
+    end
+
+    isBlocking = false
+    emoteHolding = false
+    setWalkSpeed()
+end
+
+player.CharacterAdded:Connect(onCharacterAdded)
+
+local function onInputBegan(input, processed)
+    if processed then
+        return
+    end
+
+    if input.KeyCode == Enum.KeyCode.LeftShift then
+        running = true
+        setWalkSpeed()
+    elseif input.UserInputType == Enum.UserInputType.MouseButton1 then
+        handleAttack()
+    elseif input.UserInputType == Enum.UserInputType.MouseButton2 then
+        handleBlock("Block", Enum.UserInputState.Begin)
+    elseif input.KeyCode == Enum.KeyCode.R then
+        handleShockwave()
+    elseif input.KeyCode == Enum.KeyCode.F then
+        handleKick()
+    elseif input.KeyCode == Enum.KeyCode.T then
+        handleTaunt()
+    elseif input.KeyCode == Enum.KeyCode.LeftControl then
+        toggleLock()
+    elseif input.KeyCode == Enum.KeyCode.B then
+        toggleShop()
+    elseif input.KeyCode == Enum.KeyCode.Q then
+        startEmoteHold()
+    end
+end
+
+local function onInputEnded(input, processed)
+    if input.KeyCode == Enum.KeyCode.LeftShift then
+        running = false
+        setWalkSpeed()
+    elseif input.UserInputType == Enum.UserInputType.MouseButton2 then
+        handleBlock("Block", Enum.UserInputState.End)
+    elseif input.KeyCode == Enum.KeyCode.Q then
+        stopEmoteHold()
+    end
+end
+
+UserInputService.InputBegan:Connect(onInputBegan)
+UserInputService.InputEnded:Connect(onInputEnded)
+
+RunService.RenderStepped:Connect(function()
+    if lockTarget then
+        local targetCharacter = lockTarget.Character
+        if not targetCharacter or not targetCharacter:FindFirstChild("HumanoidRootPart") then
+            clearLock()
+            return
+        end
+
+        ensureHighlight(targetCharacter)
+
+        local targetRoot = targetCharacter.HumanoidRootPart
+        local lookAt = CFrame.lookAt(root.Position, Vector3.new(targetRoot.Position.X, root.Position.Y, targetRoot.Position.Z))
+        root.CFrame = lookAt
+    end
+end)
+
+buildInfoGui()
+setWalkSpeed()
+
+StarterGui:SetCore("SendNotification", {
+    Title = "Bienvenue à ZEN Reborn",
+    Text = "Donnez un pouce et rejoignez la communauté !",
+    Duration = 5,
+})
+
+Remotes.BlockBroken.OnClientEvent:Connect(function()
+    if isBlocking then
+        isBlocking = false
+        stopAnimation("Block")
+        setWalkSpeed()
+        StarterGui:SetCore("SendNotification", {
+            Title = "Blocage brisé",
+            Text = "Vous êtes vulnérable quelques instants !",
+            Duration = 3,
+        })
+    end
+end)
+
+Remotes.Announcement.OnClientEvent:Connect(function(message)
+    StarterGui:SetCore("SendNotification", {
+        Title = "ZEN Reborn",
+        Text = message,
+        Duration = 4,
+    })
+end)
+
+]]></ProtectedString>
+</Properties>
+</Item>
+<Item class="LocalScript" referent="RBX37">
+<Properties>
+<string name="Name">ShopController</string>
+<ProtectedString name="Source"><![CDATA[
+--!strict
+-- ShopController.client.lua
+-- Wires buttons from the shop GUI to the server purchase remote.
+
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+local player = Players.LocalPlayer
+
+local function bindButton(button: TextButton, itemId: string)
+    button.MouseButton1Click:Connect(function()
+        Remotes.Purchase:FireServer(itemId)
+    end)
+end
+
+local function setupGui(gui: ScreenGui)
+    local shopFrame = gui:WaitForChild("ShopFrame")
+    for _, child in ipairs(shopFrame:GetChildren()) do
+        if child:IsA("TextButton") then
+            bindButton(child, child.Name)
+        end
+    end
+end
+
+local function onPlayerGuiAdded(gui)
+    if gui.Name == "ZenHUD" then
+        setupGui(gui)
+    end
+end
+
+local playerGui = player:WaitForChild("PlayerGui")
+playerGui.ChildAdded:Connect(onPlayerGuiAdded)
+
+local existing = playerGui:FindFirstChild("ZenHUD")
+if existing then
+    setupGui(existing)
+end
+
+]]></ProtectedString>
+</Properties>
+</Item>
+</Item>
+</Item>
+<Item class="StarterGui" referent="RBX38">
+<Properties>
+<string name="Name">StarterGui</string>
+</Properties>
+<Item class="ScreenGui" referent="RBX39">
+<Properties>
+<string name="Name">ZenHUD</string>
+<bool name="ResetOnSpawn">false</bool>
+<bool name="IgnoreGuiInset">true</bool>
+<int name="DisplayOrder">1</int>
+</Properties>
+<Item class="Frame" referent="RBX40">
+<Properties>
+<string name="Name">TitleFrame</string>
+<UDim2 name="Size">1 0 0 120</UDim2>
+<UDim2 name="Position">0 0 0 0</UDim2>
+<Color3 name="BackgroundColor3">0.0901961 0.0901961 0.0901961</Color3>
+<float name="BackgroundTransparency">0.25</float>
+</Properties>
+<Item class="TextLabel" referent="RBX41">
+<Properties>
+<string name="Name">TitleLabel</string>
+<UDim2 name="Size">1 0 0 60</UDim2>
+<UDim2 name="Position">0 0 0 8</UDim2>
+<string name="Text">ZEN Reborn</string>
+<int name="TextSize">42</int>
+<Color3 name="TextColor3">1 1 1</Color3>
+<Color3 name="BackgroundColor3">0 0 0</Color3>
+<float name="BackgroundTransparency">1</float>
+</Properties>
+</Item>
+<Item class="TextLabel" referent="RBX42">
+<Properties>
+<string name="Name">SupportLabel</string>
+<UDim2 name="Size">1 0 0 40</UDim2>
+<UDim2 name="Position">0 0 0 70</UDim2>
+<string name="Text">Bienvenue à ZEN. Rejoignez la communauté : https://discord.gg/votre-lien</string>
+<int name="TextSize">20</int>
+<Color3 name="TextColor3">0.917647 0.235294 0.235294</Color3>
+<float name="BackgroundTransparency">1</float>
+</Properties>
+</Item>
+</Item>
+<Item class="Frame" referent="RBX43">
+<Properties>
+<string name="Name">ControlsFrame</string>
+<UDim2 name="Size">0.26 0 0.38 0</UDim2>
+<UDim2 name="Position">0.02 0 0.58 0</UDim2>
+<Color3 name="BackgroundColor3">0.0823529 0.0823529 0.0823529</Color3>
+<float name="BackgroundTransparency">0.2</float>
+</Properties>
+<Item class="TextLabel" referent="RBX44">
+<Properties>
+<string name="Name">ControlsTitle</string>
+<UDim2 name="Size">1 0 0 32</UDim2>
+<UDim2 name="Position">0 0 0 6</UDim2>
+<string name="Text">Contrôles</string>
+<int name="TextSize">26</int>
+<Color3 name="TextColor3">1 1 1</Color3>
+<float name="BackgroundTransparency">1</float>
+</Properties>
+</Item>
+<Item class="TextLabel" referent="RBX45">
+<Properties>
+<string name="Name">ControlsText</string>
+<UDim2 name="Size">1 -20 1 -50</UDim2>
+<UDim2 name="Position">0.04 0 0.22 0</UDim2>
+<string name="Text">CTRL : Verrouillage\nSHIFT : Courir\nLMB : Attaquer\nRMB : Bloquer\nR : Choc\nF : Kick (Brise bloc)\nT : Provocation\nMaintenir Q : Emote\nB : Boutique</string>
+<int name="TextSize">20</int>
+<Color3 name="TextColor3">0.94902 0.94902 0.94902</Color3>
+<bool name="TextWrapped">true</bool>
+<float name="BackgroundTransparency">1</float>
+</Properties>
+</Item>
+</Item>
+<Item class="Frame" referent="RBX46">
+<Properties>
+<string name="Name">ShopFrame</string>
+<UDim2 name="Size">0.22 0 0.52 0</UDim2>
+<UDim2 name="Position">0.76 0 0.42 0</UDim2>
+<Color3 name="BackgroundColor3">0.0784314 0.0784314 0.0784314</Color3>
+<float name="BackgroundTransparency">0.05</float>
+<bool name="Visible">false</bool>
+</Properties>
+<Item class="TextLabel" referent="RBX47">
+<Properties>
+<string name="Name">ShopTitle</string>
+<UDim2 name="Size">1 0 0 32</UDim2>
+<string name="Text">Boutique</string>
+<int name="TextSize">24</int>
+<Color3 name="TextColor3">1 1 1</Color3>
+<float name="BackgroundTransparency">1</float>
+</Properties>
+</Item>
+<Item class="UIListLayout" referent="RBX48"><Properties>
+				</Properties></Item>
+<Item class="TextButton" referent="RBX49">
+<Properties>
+<string name="Name">SkinBasic</string>
+<UDim2 name="Size">0.9 0 0 40</UDim2>
+<string name="Text">Skin : Lotus (500 Zen)</string>
+<int name="TextSize">20</int>
+<Color3 name="TextColor3">1 1 1</Color3>
+<Color3 name="BackgroundColor3">0.168627 0.168627 0.168627</Color3>
+<bool name="AutoButtonColor">true</bool>
+</Properties>
+</Item>
+<Item class="TextButton" referent="RBX50">
+<Properties>
+<string name="Name">WeaponKatana</string>
+<UDim2 name="Size">0.9 0 0 40</UDim2>
+<string name="Text">Arme : Katana Svelte (750 Zen)</string>
+<int name="TextSize">20</int>
+<Color3 name="TextColor3">1 1 1</Color3>
+<Color3 name="BackgroundColor3">0.168627 0.168627 0.168627</Color3>
+</Properties>
+</Item>
+<Item class="TextButton" referent="RBX51">
+<Properties>
+<string name="Name">EmoteLotus</string>
+<UDim2 name="Size">0.9 0 0 40</UDim2>
+<string name="Text">Emote : Respiration Lotus (300 Zen)</string>
+<int name="TextSize">20</int>
+<Color3 name="TextColor3">1 1 1</Color3>
+<Color3 name="BackgroundColor3">0.168627 0.168627 0.168627</Color3>
+</Properties>
+</Item>
+</Item>
+</Item>
+</Item>
+</roblox>
